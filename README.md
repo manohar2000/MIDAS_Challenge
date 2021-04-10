@@ -23,14 +23,14 @@ To observe metrics like overfitting, convergence speed, stagnation at local mini
 
 Part 1 (Initial Model)
 Set | Accuracy | Loss |
---------------------------
+-----| --------| -----------
 Training | 77.379% | 0.70 |
 Testing |  69.89% | 1.244 |
 
 Part 2 (Comparision of pre-trained and randomly initialised model on MNIST dataset)
 Training metrics:
 Model | Accuracy | Loss |
---------------------------
+-------| --------| ---------
 Pre-trained model | 99.83% | 0.0048 |
 Randomly initialised model | 99.86% | 0.0056 |
 
