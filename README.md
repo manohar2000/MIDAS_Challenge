@@ -18,3 +18,40 @@ This challenge mainly focuses on the analysis of a convolution neural network's 
 
 
 To observe metrics like overfitting, convergence speed, stagnation at local minima and saturation of accuracy/loss we need to train the models for longer epochs. Therefore, all the models have been trained for 100 epochs. A thorough analysis has been provided in the respective notebooks please check!! :) 
+
+## Results
+
+Part 1 (Initial Model)
+Set | Accuracy | Loss |
+--------------------------
+Training | 77.379% | 0.70 |
+Testing |  69.89% | 1.244 |
+
+Part 2 (Comparision of pre-trained and randomly initialised model on MNIST dataset)
+Training metrics:
+Model | Accuracy | Loss |
+--------------------------
+Pre-trained model | 99.83% | 0.0048 |
+Randomly initialised model | 99.86% | 0.0056 |
+
+Testing metrics:
+Model | Accuracy | Loss |
+-------------| --------- | ----------- |
+Pre-trained model | 99.4% | 0.041  |
+Randomly initialised model | 99.35% | 0.041 |
+
+Part 3 (Comparision of pre-trained and randomly initialised model on wrongly tagged digts training dataset)
+Training metrics :
+Model | Accuracy | Loss |
+-------------| --------- | ----------- |
+Pre-trained model | 12.88%  | 2.19 |
+Randomly initialised model | 10.40% | 2.30 |
+
+Testing metrics
+Model | Accuracy | Loss |
+-------------| --------- | ----------- |
+Pre-trained model | 11.21% | 2.21 |
+Randomly initialised model | 10.40% | 2.30 |
+
+
+
